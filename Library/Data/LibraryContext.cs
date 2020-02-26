@@ -6,9 +6,9 @@ namespace Library
 {
     public partial class LibraryContext : DbContext
     {
-        public LibraryContext()
-        {
-        }
+        //public LibraryContext()
+        //{
+        //}
 
         public LibraryContext(DbContextOptions<LibraryContext> options)
             : base(options)
